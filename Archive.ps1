@@ -1,3 +1,26 @@
+#####################################
+## Author: James Tarran // Techary ##
+#####################################
+
+function print-TecharyLogo {
+        
+	$logo = "
+	 _______        _                      
+	|__   __|      | |                     
+	   | | ___  ___| |__   __ _ _ __ _   _ 
+	   | |/ _ \/ __| '_ \ / _`` | '__| | | |
+	   | |  __/ (__| | | | (_| | |  | |_| |
+	   |_|\___|\___|_| |_|\__,_|_|   \__, |
+									  __/ |
+									 |___/ 
+"
+
+write-host -ForegroundColor Green $logo
+
+}
+
+print-TecharyLogo
+
 $Today = [string]::Format( "{0:dd-MM-yyyy}", [datetime]::Now.Date )
 # This collects todays date, then creates a variable called $today
 
